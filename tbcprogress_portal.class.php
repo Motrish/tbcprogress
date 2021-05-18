@@ -34,16 +34,17 @@ class tbcprogress_portal extends portal_generic {
 				'class'		=> 'js_reload',
 				'options'	=> array(
 					'tbc_phase1'	=> $this->user->lang('tbc_phase1'),
-					'tbc_0_10'	=> $this->user->lang('tbc_0_10'),
-					'tbc_1_10'	=> $this->user->lang('tbc_1_10'),
-					'tbc_2_10'	=> $this->user->lang('tbc_2_10'),
-					'tbc_3_10'	=> $this->user->lang('tbc_3_10'),
-					'tbc_4_10'	=> $this->user->lang('tbc_4_10'),
-					'tbc_5_10'	=> $this->user->lang('tbc_5_10'),
-					'tbc_6_10'	=> $this->user->lang('tbc_6_10'),
-					'tbc_8_10'	=> $this->user->lang('tbc_8_10'),	
-					'tbc_8_10'	=> $this->user->lang('tbc_8_10'),		
-					'tbc_9_10'	=> $this->user->lang('tbc_9_10'),	
+					'tbc_0_11'	=> $this->user->lang('tbc_0_11'),
+					'tbc_1_11'	=> $this->user->lang('tbc_1_11'),
+					'tbc_2_11'	=> $this->user->lang('tbc_2_11'),
+					'tbc_3_11'	=> $this->user->lang('tbc_3_11'),
+					'tbc_4_11'	=> $this->user->lang('tbc_4_11'),
+					'tbc_5_11'	=> $this->user->lang('tbc_5_11'),
+					'tbc_6_11'	=> $this->user->lang('tbc_6_11'),
+					'tbc_8_11'	=> $this->user->lang('tbc_8_11'),	
+					'tbc_8_11'	=> $this->user->lang('tbc_8_11'),		
+					'tbc_9_11'	=> $this->user->lang('tbc_9_11'),
+					'tbc_10_11'	=> $this->user->lang('tbc_10_11'),	
 					'tbc_clear'	=> $this->user->lang('tbc_clear'),
 					
 				),
@@ -263,7 +264,19 @@ class tbcprogress_portal extends portal_generic {
 			if($this->config('boss'.$actualBoss) == "tbc_6_10"){$Down="<font color='yellow'>".$this->user->lang('tbc_6_10')."</font>";}					 
 			if($this->config('boss'.$actualBoss) == "tbc_7_10"){$Down="<font color='yellow'>".$this->user->lang('tbc_7_10')."</font>";}					 
 			if($this->config('boss'.$actualBoss) == "tbc_8_10"){$Down="<font color='yellow'>".$this->user->lang('tbc_8_10')."</font>";}					 
-			if($this->config('boss'.$actualBoss) == "tbc_9_10"){$Down="<font color='yellow'>".$this->user->lang('tbc_9_10')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_9_10"){$Down="<font color='yellow'>".$this->user->lang('tbc_9_10')."</font>";}	
+			
+			if($this->config('boss'.$actualBoss) == "tbc_0_11"){$Down="<font color='red'>".$this->user->lang('tbc_0_11')."</font>";}					
+			if($this->config('boss'.$actualBoss) == "tbc_1_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_1_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_2_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_2_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_3_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_3_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_4_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_4_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_5_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_5_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_6_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_6_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_7_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_7_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_8_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_8_11')."</font>";}					 
+			if($this->config('boss'.$actualBoss) == "tbc_9_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_9_11')."</font>";}	
+			if($this->config('boss'.$actualBoss) == "tbc_10_11"){$Down="<font color='yellow'>".$this->user->lang('tbc_10_11')."</font>";}
 
 			$out.="<tr style='border-bottom: 1px solid grey;background:url(".$Imagepath."".$actualBoss.".jpg);background-size:cover;'>
 			<td style='text-shadow:1px 1px 5px black;line-height:30px'>
