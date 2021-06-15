@@ -16,7 +16,7 @@ class tbcprogress_portal extends portal_generic {
 	protected static $path		= 'tbcprogress';
 	protected static $data		= array(
 		'name'			=> 'TBC Progress',
-		'version'		=> '1.1.3',
+		'version'		=> '1.2',
 		'author'		=> 'Motrish',
 		'icon'			=> 'fa-code',
 		'contact'		=> 'nehmer.michael@gmx.de',
